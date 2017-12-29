@@ -88,7 +88,7 @@ class Activity {
      */
     this.state = data.state || null;
 	
-	 /**
+     /**
      * The sync_id of the activity
      * @type {?string}
      */

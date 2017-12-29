@@ -87,6 +87,12 @@ class Activity {
      * @type {?string}
      */
     this.state = data.state || null;
+	
+	 /**
+     * The sync_id of the activity
+     * @type {?string}
+     */
+    this.sync_id = data.sync_id || null;
 
     /**
      * Application ID associated with this activity

@@ -52,7 +52,7 @@ class ClientPresenceStore extends PresenceStore {
         } : undefined,
         timestamps: activity.timestamps || undefined,
         party: activity.party || undefined,
-		sync_id: activity.sync_id || undefined,
+	sync_id: activity.sync_id || undefined,
         application_id: applicationID || undefined,
         secrets: activity.secrets || undefined,
         instance: activity.instance || undefined,
